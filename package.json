@@ -1,0 +1,38 @@
+{
+  "name": "image-viewer-jquery",
+  "version": "1.0.0",
+  "description": "Jquery Image Viewer",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel-loader": "^9.1.3",
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.13.2",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4"
+  },
+  "scripts": {
+    "build":"webpack",
+    "watch":"webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htut-git/jquery-image-viewer"
+  },
+  "keywords": [
+    "jquery",
+    "image_viewer",
+    "image-viewer",
+    "image"
+  ],
+  "author": "Htut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htut-git/image-viewer/issues"
+  },
+  "homepage": "https://github.com/htut-git/image-viewer#readme"
+}
