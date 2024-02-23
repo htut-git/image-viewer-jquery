@@ -21,18 +21,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/htut-git/jquery-image-viewer"
+    "url": "git+https://github.com/htut-git/image-viewer-jquery"
   },
   "keywords": [
     "jquery",
     "image_viewer",
-    "image-viewer",
-    "image"
+    "image viewer",
+    "image",
+    "image-viewer-jquery"
   ],
   "author": "Htut",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/htut-git/image-viewer/issues"
+    "url": "https://github.com/htut-git/image-viewer-jquery/issues"
   },
-  "homepage": "https://github.com/htut-git/image-viewer#readme"
+  "homepage": "https://github.com/htut-git/image-viewer-jquery#readme"
 }
