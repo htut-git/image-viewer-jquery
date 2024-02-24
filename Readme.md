@@ -7,7 +7,7 @@ A lightweight jQuery plugin for creating an image viewer with zoom functionality
 # npm
 
 ```
-$ npm install image-viewer-jquery
+$ npm install image_viewer_jquery
 ```
 
 # cdn

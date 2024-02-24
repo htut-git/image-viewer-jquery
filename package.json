@@ -1,6 +1,6 @@
 {
-  "name": "image-viewer-jquery",
-  "version": "1.0.0",
+  "name": "image_viewer_jquery",
+  "version": "1.0.2",
   "description": "Jquery Image Viewer",
   "main": "webpack.config.js",
   "dependencies": {
