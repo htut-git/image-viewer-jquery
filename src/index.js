@@ -29,13 +29,14 @@ class ImageViewer {
           <img id="${this.fullImageId.replace("#", "")}" src="${event.target.getAttribute('src')}">
         </div>
       </div>`;
-    $("body").append(fullImageContainer);
+    $("body").append(fullImageContainer).css({overflow: 'hidden'});
     $(this.fullImageId).fadeIn().draggable();
     $(".fullImageDiv").on("wheel", (event) => this.#wheelZoom(event));
     $(".fullImageCloseBtnContainer").on("click", () => {
       $(".fullImageContainer").remove();
       $(".fullImageDiv").off("wheel");
       $(".fullImageCloseBtnContainer").off("click");
+      $('body').css({overflow:'auto'});
     });
   }
 
